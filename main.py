@@ -17,13 +17,13 @@ from sklearn.preprocessing import LabelEncoder
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 
 PADDING = 0.5
-RESOLUTION = 0.025
-HIDDEN_LAYERS_SETTINGS = [[(2, None)],
+RESOLUTION = 0.01
+HIDDEN_LAYERS_SETTINGS = [[],
+                          [(2, None)],
                           [(2, 'sigmoid')],
                           [(2, 'relu')],
                           [(2, 'elu')],
                           [(2, 'tanh')]]
-HIDDEN_LAYERS_SETTINGS.reverse()
 
 PATIENCE = 32
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Visualizer.iml" filepath="$PROJECT_DIR$/.idea/Visualizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ANNVisualizer.iml" filepath="$PROJECT_DIR$/.idea/ANNVisualizer.iml" />
     </modules>
   </component>
 </project>
